@@ -22,13 +22,13 @@
     
 #### Types Obervables
 
-*Obersable.create(Subscriber)
-*Obervable.just(values)
-*Observable.from(values)
-*Observable.range(from,n)
-*Observable.empty()
-*Observable.never()
-*Observable.error()
+* Obersable.create(Subscriber)
+* Obervable.just(values)
+* Observable.from(values)
+* Observable.range(from,n)
+* Observable.empty()
+* Observable.never()
+* Observable.error()
 
 
 #### Three types of events
