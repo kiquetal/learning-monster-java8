@@ -42,5 +42,4 @@
    
     -Reactive programming with RxJava
     -Reactive programming java8 rxjava
-    
-
+    [Rx Guidelines](https://github.com/Reactive-Extensions/Rx.NET/blob/master/Rx.NET/Documentation/Rx%20Design%20Guidelines.pdf)
