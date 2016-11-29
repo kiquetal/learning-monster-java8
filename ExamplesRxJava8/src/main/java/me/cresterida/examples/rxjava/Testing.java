@@ -40,5 +40,22 @@ public class Testing {
                     System.out.println("Num :"+num+Thread.currentThread().getName());
                 });
 
+        
+        BiFunction<String,String,String> algo=((s1,s2)->{
+             return "algo".concat(s1).concat(s2);
+        });
+    
+    
+        algo=Testing::checkSomething;
+ 
+        
+        
     }
+    
+    
+    static String checkSomething(String s1,String s2)
+    {
+        return s1+s2;
+    }
+    
 }
