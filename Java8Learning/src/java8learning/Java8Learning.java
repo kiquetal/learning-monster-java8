@@ -16,7 +16,7 @@ public class Java8Learning {
     public static void main(String[] args) {
         
        
-        SimpleModel s=new SimpleModel("esto");
+        SimpleModel s=new SimpleModel("esto es mi model inside de parametric functions.");
         
         TypeFormatter<SimpleModel> n1=new FancyFormatter<>();
         System.out.println(n1.accept(s));

@@ -16,7 +16,7 @@ public class FancyFormatter<T extends SimpleModel> implements TypeFormatter<T>{
 
     @Override
     public String accept(T something) {
-       return "Something very fancy" + something.getName();
+       return "Something very fancy: " + something.getName();
     }
     
 }
